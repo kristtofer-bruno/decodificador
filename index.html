@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="lua.png" alt="logo-alura">
+    </header>
+    <main  class="conteudo-principal">
+        <section class="conteudo-principal__escrever">
+            <textarea type="text" name="decodificar" id="inputText" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+                <img src="interrogacao.png" alt="aviso">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button id="criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+
+            <p id="errorMessage" class="error"></p>
+        </section> 
+        
+        <section class="segunda__tela">
+            <div class="segunda__tela__mostrar-texto">
+                <div id="outputText">
+                    <img src="milky.jpg" alt="Imagem">
+                    <textarea class="mostrar-texto" id="outputTextarea" placeholder="Não foi possível encontrar um texto, digite um texto para criptografar ou descriptografar!" readonly></textarea>
+                </div>
+                <div>
+                    <button onclick="copiar()" class="botoes" id="copiar">Copiar</button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="rodape">
+        <P>Desenvolvido por Kristtofer Bruno.</P>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
