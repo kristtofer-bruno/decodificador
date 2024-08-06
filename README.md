@@ -15,7 +15,7 @@ assim, terá que digitar novamente o texto, cumprindo com os requisitos de decod
 # 📁 Acesso ao projeto
 
 **No momento, ele foi construido apenas a versão para Pc, caso acesse por um dispositivo mobile não será apresentado como na imagem acima. 
-O decodificador pode ser acessado pelo <a href="https://decodificador-tan.vercel.app/">link</a>**
+O decodificador pode ser acessado pelo <a href="https://github.com/kristtofer-bruno/decodificador">link</a>**
 
 # 🛠️ Tecnologias Utilizadas
 
